@@ -76,7 +76,6 @@ public class Basic {
         sum(x,y);
     }
 
-
     private static void sum(int x, int y) {
         System.out.println(x+y);
     }
