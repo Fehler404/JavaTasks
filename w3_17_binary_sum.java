@@ -8,10 +8,10 @@ public class Basic {
         Scanner scaner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Enter a:");
-        long a = scaner.nextLong();
+        int a = scaner.nextInt();
 
         System.out.println("Enter b:");
-        long b = scaner.nextLong();
+        int b = scaner.nextInt();
 
         areBinary(a, b);
 
@@ -76,7 +76,7 @@ public class Basic {
 
     }
 
-    public static void areBinary(long a, long b) {
+    public static void areBinary(int a, int b) {
         while(a != 0 && b != 0) {
             if (((a % 10) > 1) && ((b % 10) > 1)) {
 
