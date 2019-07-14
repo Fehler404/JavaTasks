@@ -1,4 +1,6 @@
-A.
+//Write a Java program to print the sum of two numbers. 
+
+// A. The simplest solution, but the less rational one.
 
 public class Basic {
 
@@ -9,7 +11,7 @@ public class Basic {
     
 }
 
-B. 
+// B. A more interactive solution with a scanner & a built-in sum method.
 
 import java.util.Scanner;
 
@@ -29,7 +31,8 @@ public class Basic {
 
 }
 
-C. 
+// C. An interactive solution with a scanner and a self-written sum method, which is being used by an object.
+// The sum method is not static, therefore you need to create an object to use it.
 
 import java.util.Scanner;
 
@@ -54,7 +57,8 @@ public class Basic {
     }
 }
 
-D.
+// D. An interactive solution with a scanner and a self-written static sum method, which is being used directly,
+// aka without an object, because the method is static.
 
 import java.util.Scanner;
 
