@@ -11,6 +11,9 @@ public class Convert {
 
         List<Integer> digits = new ArrayList<Integer>();
         List<Integer> remainders = new ArrayList<Integer>();
+        
+        // using List instead of ArrayList is better for the architecture.
+        // if I decided to swtich ArrayList to LinkedList, it will be much easier to change the code.
 
         while (a > 0) {
 
