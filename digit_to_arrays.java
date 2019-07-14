@@ -14,6 +14,10 @@ public class Convert {
         
         // using List instead of ArrayList is better for the architecture.
         // if I decided to swtich ArrayList to LinkedList, it will be much easier to change the code.
+        
+        /*
+        Make arrays out of a number.
+        */
 
         while (a > 0) {
 
