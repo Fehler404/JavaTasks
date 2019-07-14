@@ -54,3 +54,27 @@ public class Basic {
     }
 }
 
+D.
+
+import java.util.Scanner;
+
+public class Basic {
+
+    public static void main(String[] args) {
+        int x, y, sum;
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter x");
+        x = scan.nextInt();
+        System.out.println("Enter y");
+        y = scan.nextInt();
+
+        sum(x,y);
+    }
+
+
+    private static void sum(int x, int y) {
+        System.out.println(x+y);
+    }
+}
+    
